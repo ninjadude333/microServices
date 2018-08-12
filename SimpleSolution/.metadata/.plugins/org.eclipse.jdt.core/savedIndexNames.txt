@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\david.gidony\Desktop\amdocsTest\spring\.metadata\.plugins\org.eclipse.jdt.core
+2923830452.index
+2525254897.index

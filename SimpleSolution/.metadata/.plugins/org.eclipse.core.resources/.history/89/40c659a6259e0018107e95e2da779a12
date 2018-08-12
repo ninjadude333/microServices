@@ -1,0 +1,23 @@
+package com.example.amdocs;
+
+import java.util.Arrays;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RestController;
+
+@Controller
+@RestController
+@SpringBootApplication
+public class ItemsCatalogApplication {
+
+	final ApplicationContext context = new ClassPathXmlApplicationContext("items.xml");
+	int itemsCount = Arrays.asList(context.getBeanDefinitionNames()).size();
+	
+	public static void main(String[] args) {
+		SpringApplication.run(ItemsCatalogApplication.class, args);
+	}
+}
