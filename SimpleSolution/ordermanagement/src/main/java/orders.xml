@@ -4,27 +4,27 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
            http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-  <bean id="10122" class="com.example.amdocs.singleOrder">
+  <bean id="1" class="com.example.amdocs.singleOrder">
 	<constructor-arg name="id" value="10122"/>
 	<constructor-arg name="name" value="itemA"/>
 	<constructor-arg name="customerDetails" value="itemA Description"/>
   </bean>
-	<bean id="10123" class="com.example.amdocs.singleItem">
+	<bean id="2" class="com.example.amdocs.singleOrder">
 	<constructor-arg name="id" value="10123"/>
 	<constructor-arg name="name" value="itemB"/>
 	<constructor-arg name="customerDetails" value="itemB Description"/>
   </bean>
-	<bean id="10124" class="com.example.amdocs.singleItem">
+	<bean id="3" class="com.example.amdocs.singleOrder">
 	<constructor-arg name="id" value="10124"/>
-	<constructor-arg name="itemName" value="itemC"/>
+	<constructor-arg name="name" value="itemC"/>
 	<constructor-arg name="customerDetails" value="itemC Description"/>
   </bean>
-	<bean id="10125" class="com.example.amdocs.singleItem">
+	<bean id="4" class="com.example.amdocs.singleOrder">
 	<constructor-arg name="id" value="10125"/>
 	<constructor-arg name="name" value="itemD"/>
 	<constructor-arg name="customerDetails" value="itemD Description"/>
   </bean>
-	<bean id="10126" class="com.example.amdocs.singleItem">
+	<bean id="5" class="com.example.amdocs.singleOrder">
 	<constructor-arg name="id" value="10126"/>
 	<constructor-arg name="name" value="itemE"/>
 	<constructor-arg name="customerDetails" value="itemE Description"/>
